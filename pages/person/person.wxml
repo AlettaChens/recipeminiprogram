@@ -1,0 +1,23 @@
+<view class="user">
+  <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="user-info">{{userInfo.nickName}}</text>
+</view>
+
+<view class="myitem">
+  <image src="../../image/cache.png"></image>
+  <text>清除缓存</text>
+</view>
+
+<view class="myitem ">
+  <image src="../../image/share.png"></image>
+  <text>分享给好友</text>
+</view>
+
+<view class="myitem ">
+  <image src="../../image/about.png"></image>
+  <text>关于</text>
+</view>
+
+<view class="logout">
+  <text>退出登录</text>
+</view>
